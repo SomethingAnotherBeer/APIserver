@@ -7,7 +7,7 @@ class DB
 	private static $connection;
 
 	public static function getConnection(){
-		self::setConnection('localhost','testdatabase','root','12345qqqwww');
+		self::setConnection('localhost','testdatabase','root','yourpassword');
 		return self::$connection;
 	}
 
